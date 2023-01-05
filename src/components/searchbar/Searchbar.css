@@ -1,0 +1,43 @@
+.searchbar-body {
+  height: 93%;
+  background-color: rgb(167, 161, 161);
+  border-radius: 4rem;
+  border: 2px solid black;
+}
+
+.searchbar-body>form {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.searchbar-input {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: inherit;
+  outline: 0;
+  border: 0;
+  font-size: 1.3rem;
+  width: 100%;
+  cursor: text;
+  padding: 0 1.5rem;
+  color: rgb(48, 33, 33);
+  text-transform: lowercase;
+}
+
+.searchbar-input::placeholder {
+  color: rgb(63, 58, 58)
+}
+
+.searchbar-button {
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.searchbar-button:hover {
+  background-color: white;
+  color: rgb(49, 16, 16);
+  border: 2px rgb(49, 28, 28) solid;
+}
