@@ -1,0 +1,43 @@
+:root {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: rgb(95, 23, 23);
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: inherit;
+  outline: 0;
+  border: 2px white solid;
+  padding: 0.5rem 0;
+  border-radius: 4rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: border 350ms ease-in-out, color 350ms ease-in-out;
+  background-color: 350ms ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(49, 16, 16);
+  border: 2px rgb(49, 28, 28) solid;
+}
+
+.footer {
+  align-self: center;
+  width: 85%;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(182, 164, 164);
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
